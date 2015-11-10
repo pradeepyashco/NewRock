@@ -1,0 +1,629 @@
+@charset "utf-8";
+/* CSS Document */
+
+        html, body {
+            margin: 0;
+            padding: 0;
+			background-image:url(../img/bg.png);
+			background-size:cover;
+        }
+        #wrapper {
+            width: 100%;
+            height: 700px;
+            max-height: 900px;
+            position: relative;
+            overflow: hidden;
+        }
+        .parallax {
+            position: absolute;
+        }
+        #warpbg {
+            top: -200px;
+            left: -350px;
+        }
+        #fans {
+            top: 50px;
+            right: 350px;
+        }
+        #star2 {
+            top: 220px;
+            right: 700px;
+        }
+        #star3 {
+            bottom: 20px;
+            right: 20px;
+        }
+        #star4 {
+            top: 40px;
+            left: 290px;
+        }
+        #star5 {
+            bottom: 138px;
+            left: 270px;
+        }
+        #planet {
+            top: -103px;
+            left: -103px;
+        }
+        #artist {
+            top: 620px;
+            right: 420px;
+        }
+        #hand {
+            top: 450px;
+            right: 100px;
+			z-index:999;
+        }
+        #venues {
+            top: 120px;
+            right: 50px;
+        }
+		
+		.top-head{
+		background-color:rgba(0,0,0,0.60);
+		position:relative;
+		margin-left:1px;
+		margin-right:1px;
+		}
+		
+@font-face {
+	font-family:'WalkwayUltraBold-Regular';
+	src: url('../font/WalkwayUltraBold_gdi.eot');
+	src: url('../font/WalkwayUltraBold_gdi.eot?#iefix') format('embedded-opentype'),
+		url('../font/WalkwayUltraBold_gdi.woff') format('woff'),
+		url('../font/WalkwayUltraBold_gdi.ttf') format('truetype'),
+		url('../font/WalkwayUltraBold_gdi.svg#WalkwayUltraBold-Regular') format('svg');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-2122;
+}
+		
+		
+.login-fld{
+	border:solid 1px #000;
+	background-color:rgba(255,255,255,0.6);
+	color:#000;
+	height:40px;
+	width:100%;
+	padding-left:10px;
+	margin-top:21px;
+}
+
+.login-txt{
+	margin-top:10px;
+	font-size:13px;
+	color:#FFF;
+}
+.login-txt a{
+	color:#fff;
+}
+.login-txt a:hover{
+	color:#ccc;
+	text-decoration:none;
+}
+
+.login-txt-fb{
+	margin-top:10px;
+	font-size:13px;
+}
+.login-txt-fb a{
+	color:#999;
+	
+}
+.login-txt-fb a:hover{
+	color:#ccc;
+	text-decoration:none;
+}
+
+
+
+.login-btn{
+border:none;
+padding:9px 60px;
+color:#fff;
+font-size:15px;
+margin-top:20px;
+/*background-color:rgba(255,255,255,0.70);*/
+background-color:rgb(18, 167, 127)
+color:#000;
+}
+
+.login-btn:hover{
+	color:#fff;
+	background-color:rgba(255,255,255,0.50);
+	transition:all 1s;
+	
+}
+
+.discover-box {
+	background-image:url(../img/discover-box.png);
+	background-size:contain;
+	background-repeat:no-repeat;
+	padding:20px;
+	min-height:340px;
+	margin-left:0px;
+	margin-right:33px;
+	color:#fff;
+	width:23%;
+	background-position:center;
+}
+.discover-box h2{text-align:center; margin-top:60px; margin-bottom:30px; font-size:55px; font-family:'WalkwayUltraBold-Regular'}
+.discover-box h2:hover{text-align:center; margin-top:30px; margin-bottom:30px; font-size:55px; font-family:'WalkwayUltraBold-Regular'; transition:all 1s;}
+
+.discover-box p{text-align:center; font-size:18px; line-height:30px;}
+
+
+
+.empower-box {
+	background-image:url(../img/empower.png);
+	background-size:contain;
+	background-repeat:no-repeat;
+	padding:20px;
+	min-height:340px;
+	margin-left:0px;
+	margin-right:33px;
+	color:#fff;
+	width:23%;
+	background-position:center;
+}
+.empower-box h2{text-align:center; margin-top:60px; margin-bottom:30px; font-size:55px; font-family:'WalkwayUltraBold-Regular'}
+.empower-box h2:hover{text-align:center; margin-top:30px; margin-bottom:30px; font-size:55px; font-family:'WalkwayUltraBold-Regular'; transition:all 1s;}
+.empower-box p{text-align:center; font-size:18px; line-height:30px;}
+
+
+.reward-box {
+	background-image:url(../img/reward.png);
+	background-size:contain;
+	background-repeat:no-repeat;
+	padding:20px;
+	min-height:340px;
+	margin-left:0px;
+	margin-right:0px;
+	color:#fff;
+	width:23%;
+	background-position:center;
+}
+.reward-box h2{text-align:center; margin-top:60px; margin-bottom:30px; font-size:55px; font-family:'WalkwayUltraBold-Regular'}
+.reward-box h2:hover{text-align:center; margin-top:30px; margin-bottom:30px; font-size:55px; font-family:'WalkwayUltraBold-Regular'; transition:all 1s;}
+
+.reward-box p{text-align:center; font-size:18px; line-height:30px;}
+
+.foot-bg{
+	background-color:#000;
+	color:#fff;
+	margin-top:30px;
+	margin-left:1px;
+	margin-right:1px;
+}
+.foot-bg h3{
+	font-size:15px;
+	margin-left:-50px
+}
+.foot-bg h4{
+	font-size:11px;
+	margin-left:-50px;
+	font-weight:normal;
+	line-height:30px;
+	margin-top:30px;
+}
+.footer-nav{
+	display:block;
+	margin-left:-100px;
+}
+.foot-line{
+	border-bottom:solid 1px #ccc;
+	height:10px;
+	width:100%;
+	margin-left:-50px;
+	margin-top:30px;
+}
+.footer-nav ul li{
+	display:inline-block;
+	float:left;
+	padding-left:10px;
+	padding-right:10px;
+	border-right:solid 1px #fff;
+}
+
+.footer-nav ul li a {
+	color:#fff;
+	font-size:12px;
+}
+.footer-nav ul li a:hover {
+	color:#ccc;
+	text-decoration:none;
+	margin-top:10px;
+	transition:all 1s;
+}
+.social-media{margin-left:-50px}
+.social-media a{margin-left:2px; margin-right:2px}
+.my-space{margin-left:1px; margin-right:1px}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 768px) {
+ html, body {
+            margin: 0;
+            padding: 0;
+			background-image:url(../img/mob-bg.png);
+			background-size:cover;
+        }
+		#wrapper {
+            width: 100%;
+            height: 700px;
+            max-height: 900px;
+            position: relative;
+            overflow: hidden;
+			display:none;
+        }
+	.logo-bg{
+		background-color:rgba(0, 0, 0, 0.6);
+		position:relative;
+		z-index:11
+		}	
+			
+	.discover-box {
+	background-image:url(../img/discover-box.png) no-repeat center center fixed;
+	background-size:contain;
+	background-repeat:no-repeat;
+	padding:20px;
+	min-height:340px;
+	margin-left:11px;
+	margin-right:33px;
+	margin-top:30px;
+	color:#fff;
+	width:94%;
+}
+.discover-box h2{text-align:center; margin-top:60px; margin-bottom:30px; font-size:40px;}
+.discover-box h2:hover{text-align:center; margin-top:30px; margin-bottom:30px; font-size:55px; font-family:'WalkwayUltraBold-Regular'; transition:all 1s;}
+.discover-box p{text-align:center; }
+
+
+
+.empower-box {
+	background-image:url(../img/empower.png);
+	background-size:contain;
+	background-repeat:no-repeat;
+	padding:20px;
+	min-height:340px;
+	margin-left:11px;
+	margin-right:33px;
+	color:#fff;
+	margin-top:30px;
+	width:94%;
+}
+.empower-box h2{text-align:center; margin-top:60px; margin-bottom:30px; font-size:40px;}
+.empower-box h2:hover{text-align:center; margin-top:30px; margin-bottom:30px; font-size:55px; font-family:'WalkwayUltraBold-Regular'; transition:all 1s;}
+.empower-box p{text-align:center; margin-top:20px;}
+
+
+.reward-box {
+	background-image:url(../img/reward.png);
+	background-size:contain;
+	background-repeat:no-repeat;
+	padding:20px;
+	min-height:340px;
+	margin-left:11px;
+	margin-right:0px;
+	margin-top:30px;
+	color:#fff;
+	width:94%
+}
+.reward-box h2{text-align:center; margin-top:60px; margin-bottom:30px; font-size:40px;}
+.reward-box h2:hover{text-align:center; margin-top:30px; margin-bottom:30px; font-size:55px; font-family:'WalkwayUltraBold-Regular'; transition:all 1s;}
+.reward-box p{text-align:center}
+
+.extra-pad{margin-top:20px;margin-bottom:20px;}	
+.foot-bg h3{
+	font-size:15px;
+	margin-left:0px
+}
+.footer-nav ul li{
+	display:block;
+	padding-left:10px;
+	padding-right:10px;
+	border-right: none;
+	border-bottom:solid 1px #fff;
+	float:none;
+}
+.footer-nav{
+	display:block;
+	margin-left:-47px;
+}
+
+.foot-bg h4{
+	font-size:11px;
+	margin-left:0px;
+	font-weight:normal;
+	line-height:30px;
+	margin-top:30px;
+}
+.foot-line{
+	border-bottom:solid 1px #ccc;
+	height:10px;
+	width:100%;
+	margin-left:0px;
+	margin-top:30px;
+}
+.social-media{margin-left:0px}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{background-color:#000}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle{display:block; margin:0 auto; float:none}
+.trans-bg{
+	background-color:rgba(255,255,255,0.7);
+	padding:20px;
+	margin-top:10px
+}
+
+}
+@media screen and (min-device-width: 769px) {
+	.my-hidden-box{
+		display:none;
+	}
+	.footer-nav ul li{
+	display:inline-block;
+	float:left;
+	padding-left:10px;
+	padding-right:10px;
+	border-right:solid 1px #fff;
+}
+
+.footer-nav ul li a {
+	color:#fff;
+	font-size:12px;
+}
+.footer-nav ul li a:hover {
+	color:#ccc;
+	text-decoration:none;
+	margin-top:10px;
+	transition:all 1s;
+}
+.logo-bg{
+		background-color:none;
+		position:relative;
+		z-index:11
+		}	
+	.trans-bg{
+	background-color:rgba(255,255,255,0.9);
+	padding:20px;
+	margin-top:10px
+}
+
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+	.discover-box {
+	background-image:url(../img/discover-box.png) no-repeat center center fixed;
+	background-size:contain;
+	background-repeat:no-repeat;
+	padding:20px;
+	min-height:340px;
+	margin-left:5px;
+	margin-right:5px;
+	margin-top:30px;
+	color:#fff;
+	width:32%;
+}
+.discover-box h2{text-align:center; margin-top:60px; margin-bottom:30px; font-size:40px;}
+.discover-box h2:hover{text-align:center; margin-top:30px; margin-bottom:30px; font-size:50px; font-family:'WalkwayUltraBold-Regular'; transition:all 1s;}
+.discover-box p{text-align:center; }
+
+
+
+.empower-box {
+	background-image:url(../img/empower.png);
+	background-size:contain;
+	background-repeat:no-repeat;
+	padding:20px;
+	min-height:340px;
+	margin-left:5px;
+	margin-right:5px;
+	color:#fff;
+	margin-top:30px;
+	width:32%;
+}
+.empower-box h2{text-align:center; margin-top:60px; margin-bottom:30px; font-size:40px;}
+.empower-box h2:hover{text-align:center; margin-top:30px; margin-bottom:30px; font-size:50px; font-family:'WalkwayUltraBold-Regular'; transition:all 1s;}
+.empower-box p{text-align:center; margin-top:20px;}
+
+
+.reward-box {
+	background-image:url(../img/reward.png);
+	background-size:contain;
+	background-repeat:no-repeat;
+	padding:20px;
+	min-height:340px;
+	margin-left:5px;
+	margin-right:0px;
+	margin-top:30px;
+	color:#fff;
+	width:32%
+}
+.reward-box h2{text-align:center; margin-top:60px; margin-bottom:30px; font-size:40px;}
+.reward-box h2:hover{text-align:center; margin-top:30px; margin-bottom:30px; font-size:50px; font-family:'WalkwayUltraBold-Regular'; transition:all 1s;}
+.reward-box p{text-align:center}
+}
+
+
+.form{
+	font-family:"WalkwayUltraBold-Regular"
+	font-size:24px;
+
+}
+.form-put{
+	width:100%;
+	height:40px;
+	border: solid 1px #999;
+	padding:2px 10px;
+}
+
+.performer{margin-left:0px; margin-right:10px; position:relative; top:40px}
+
+.my-down{
+	-moz-appearance:none;
+	appearance:searchfield;
+}
+.user-profile-box{
+	background-color:rgba(255,255,255,1);
+	padding-bottom:20px;
+	padding-top:20px;
+}
+.participate{
+	position:relative;
+	top:40px;
+}
+.participate input[type=checkbox]{
+	margin-left:0px;
+}
+.submit-btn{
+	background-color:#000;
+	color:#fff;
+	padding:15px 70px;
+	border:none;
+}
+.submit-btn:hover{
+	background-color:#F00;
+	color:#fff;
+	padding:15px 70px;
+	border:none;
+	transition:all 1s;
+}
+.text-head{
+	font-family: 'Qwigley', cursive;
+	font-size:60px;
+}
+
+
+.upload {background-color:rgba(255,255,255,0.1); padding:5px 0px; margin-top:60px;}
+.upload span:nth-child(odd){float:left; margin-bottom:20px;}
+.upload span:nth-child(even){float:right; margin-bottom:20px;}
+
+.upload input[type="file"] {
+    display: none;
+}
+.custom-file-upload {
+    display: inline-block;
+    padding: 9px 30px;
+    cursor: pointer;
+	margin-top:-10px;
+	margin-left:5px;
+	background-color:#F4D8B2;
+	width:100%;
+	text-align:center;
+}
+
+.custom-file-upload:hover {
+    display: inline-block;
+    padding: 8px 30px;
+    cursor: pointer;
+	margin-top:-5px;
+	margin-left:5px;
+	background-color:#000;
+	color:#fff;
+	transition:all 1s;
+}
+
+.upload-btn{
+	border:none;
+	padding:11px 30px;
+	margin-top:-10px;
+	background-color:#F4D8B2;
+	font-weight:bold;
+	width:100%;
+	
+}
+.upload-btn:hover{
+	border:none;
+	padding:11px 30px;
+	margin-top:-10px;
+	background-color:#000;
+	color:#FFF;
+	transition:all 1s;
+}
+
+.service-charge{
+	width:55%;
+	height:35px;
+	margin-top:-10px;
+}
+.intro-txt{
+	font-size:67px;
+	font-family:"Qwigley",cursive;
+	margin-top:50px;
+	color:#000;
+	border-bottom:1px solid #000;
+	border-top:1px solid #000;
+	padding:10px 15px;
+}
+.navbar-default{
+	background-color: rgba(0, 0, 0, 0.6);
+	border:none;
+}
+.navbar-toggle{
+background-color: transparent;
+background-image: none;
+border: 1px solid transparent;
+border-radius: 25px;
+float: right;
+margin-bottom: 8px;
+margin-right: 15px;
+margin-top: 8px;
+padding: 9px 10px;
+position: relative;
+}
+
+/* Added By Pradeep */
+
+	#map_canvas {
+           height: 150px;
+    width: 94%;
+    margin-top: 0.6em;
+    padding-left: 3%;
+    padding-right: 3%;
+      }
+	   .pac-container{
+	  	z-index:999999!important;
+	  }
+      .ui-menu .ui-menu-item{
+        text-align: left;  
+        font-weight: normal;
+      }
+      .ui-menu .ui-menu-item a.ui-state-hover{
+        border: 1px solid red; 
+        background: #FFBFBF; 
+        color: black;
+        font-weight:bold;
+      }
+
+
+.success_message{
+
+/*    background: url("../images/error.png") no-repeat scroll left center transparent; */
+    clear: both !important;
+    color: #00FF00;
+	font-weight:bold;
+    display: block;
+    float: none !important;
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 14px;
+    margin-top: 5px;
+    padding-left: 18px;
+	
+	}
+#fan-up-area tr td { line-height:10px!important;}
+.clicking-bottom-content { line-height:20px!important}	
+	  
+.info_window{
+	color: #000000;
+	height: auto;
+	line-height: 16px;
+	overflow: hidden;
+	font-size:15px;
+}
+
+
+#artist_registration-bg-main { height:735px!important;}
+
+#fan-up-area input[type="radio"] { margin-top:-3px!important}
+
+
+   
